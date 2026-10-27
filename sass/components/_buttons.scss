@@ -1,0 +1,29 @@
+.btn {
+    text-decoration: none;
+    font-family: $secondary-font;
+    color: $primaryfontcolor;
+    text-align: center;
+    background-color: $pink;
+    border-radius: 20px 20px 20px 0px;
+    padding: 10px 40px;
+    transition: all 0.3s ease;
+    &:hover{
+        color: $pink;
+        background-color: $primaryfontcolor;
+    }
+
+}
+
+.btn-2{
+    margin-left: 30px;
+    font-family: $secondary-font;
+    color: $primaryfontcolor;
+    text-decoration: none;
+    span{
+        text-decoration: underline;
+    }
+    &:hover{
+        color: $pink;
+    }
+
+}

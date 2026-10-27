@@ -1,0 +1,73 @@
+main{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.hero {
+    background-repeat: no-repeat;
+    width: 100%;
+    background-image: 
+        url(../img/face1.png),//mujer fondo azul
+        url(../img/face2.png),//hombre fondo lila
+        url(../img/face3.png),//mujer fondo naranja
+        url(../img/face4.png),//hombre fondo naranja
+        url(../img/face5.png),//mujer vestido blanco
+        url(../img/ellipseone.png), //elipse pequeña
+        url(../img/ellipsetwo.png); //elipse grande
+
+    background-size: 
+        160px 160px,    
+        160px 300px,
+        160px 160px,
+        160px 300px,
+        160px 300px,
+        80% 80%,
+        50% 50%;
+
+    background-position: 
+        78% 0px,
+        58% 0px,
+        58% 325px,
+        78% 185px,
+        98% 50%,
+        700px 100px,
+        120% 300px;
+        
+    
+    .hero-info{
+        padding-top: 30px;
+        width: 50%;
+        margin-bottom: 50px;
+        p{
+            margin-top: 25px;
+            margin-bottom: 20px;
+            line-height: 1.25;
+            width: 90%;
+        }
+    }
+
+    .info {
+        margin-top: 70px;
+        display: flex;
+        justify-content: space-between;
+        width: 40%;
+        div {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        
+            img {
+                width: 50px;
+                height: auto;
+            }
+            p {
+                color: $primaryfontcolor;
+                font-size: 15px;
+               
+                margin-left: 10px;
+            }
+        }
+
+    }
+    
+
+}
