@@ -1,8 +1,8 @@
 # Gathsession —  Header & Landing Page
 
-![Vista previa de Gathsession](./img/preview.png)
 
-### Frontend Development · HTML5 · Sass · CSS3
+
+### Frontend Development 
 
 Proyecto de maquetación web desarrollado como parte de mi formación en **Desarrollo Full Stack en Conquer Blocks**.
 
